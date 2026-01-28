@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ onLoginClick }) => {
           </div>
           <div>
             <h1 className={`text-xl font-bold tracking-tight serif leading-tight ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
-              Raad Laundry
+              Wash and Press
             </h1>
             <div className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>

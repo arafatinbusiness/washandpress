@@ -10,7 +10,7 @@ import { Product, Customer, Translation, Employee } from './types';
 export const PUBLIC_INVOICE_BASE_URL = import.meta.env.VITE_PUBLIC_INVOICE_URL || 'https://inventoryinvoice.labinitial.com';
 
 export const TRANSLATIONS: Translation = {
-  welcome: { en: 'Welcome to Raad Laundry', bn: 'Raad Laundry অ্যাপে স্বাগতম' },
+  welcome: { en: 'Welcome to Wash and Press', bn: 'Wash and Press অ্যাপে স্বাগতম' },
   login: { en: 'Login', bn: 'লগইন' },
   signup: { en: 'Sign Up', bn: 'সাইন আপ' },
   dashboard: { en: 'Dashboard', bn: 'ড্যাশবোর্ড' },
